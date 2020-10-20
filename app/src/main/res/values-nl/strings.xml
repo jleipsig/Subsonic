@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="common.appname">DSub</string>
+    <string name="common.appname">JAmp</string>
     <string name="common.ok">OK</string>
     <string name="common.save">Opslaan</string>
     <string name="common.cancel">Annuleer</string>
@@ -42,13 +42,13 @@
 	<string name="button_bar.offline">Offline</string>
 
     <string name="main.welcome_title">Welkom!</string>
-    <string name="main.welcome_text">Welkom bij DSub! De app is momenteel alleen geconfigureerd om de demo server te gebruiken. Nadat je eigen server geïnstalleerd hebt  (beschikbaar bij <b>subsonic.org</b>), ga dan naar <b>Instellingen</b> en verander de configuratie zodat je ermee kunt verbinden.</string>
-	<string name="main.about_title">Over DSub</string>
+    <string name="main.welcome_text">Welkom bij Jamp! De app is momenteel alleen geconfigureerd om de demo server te gebruiken. Nadat je eigen server geïnstalleerd hebt  (beschikbaar bij <b>subsonic.org</b>), ga dan naar <b>Instellingen</b> en verander de configuratie zodat je ermee kunt verbinden.</string>
+	<string name="main.about_title">Over Jamp</string>
 	<string name="main.faq_title">FAQ</string>
 	<string name="main.faq_text">
 	<![CDATA[
 		<font color="red">Cache versus Permanente Cache</font>:
-		<br/>Wanneer nummers zijn gedownload door DSub (cache), kunnen ze verwijderd worden om ruimte te maken voor nieuwe downloads. Permanente cache, daarentegen, wordt nooit automatisch verwijderd. 
+		<br/>Wanneer nummers zijn gedownload door JAmp (cache), kunnen ze verwijderd worden om ruimte te maken voor nieuwe downloads. Permanente cache, daarentegen, wordt nooit automatisch verwijderd.
 		<p/><font color="red">ChromeCast faalt</font>:
 		<br/>Probeer de optie Instellingen -> Afspelen -> Gebruik apparaat proxy. Hiermee wordt het probleem van niet geaccepteerde \'self signed\' certificaten omzeild.
 		<p/><font color="red">Het eerste niveau in de bibliotheek zijn eigenlijk groepen artiesten.</font>:
@@ -218,7 +218,7 @@
 	<string name="sync.new_starred">Nieuwe nummers met sterren beschikbaar</string>
     
 	<string name="starring_content_starred">Met sterren \"%s\"</string>
-	<string name="starring_content_unstarred">Zoner sterren \"%s\"</string>
+	<string name="starring_content_unstarred">Zonder sterren \"%s\"</string>
     <string name="starring_content_error">Kon \"%s\" niet updaten, probeer het later nog eens.</string>
 
 	<string name="playlist.mine">Mijn playlists</string>
@@ -274,7 +274,7 @@
     <string name="settings.cache_size">Cache grootte</string>
     <string name="settings.cache_location">Cache locatie</string>
     <string name="settings.cache_location_error">Onjuiste cache locatie. Standaard wordt gebruikt.</string>
-    <string name="settings.cache_location_reset">De locatie van de cache die u hebt ingesteld is niet meer beschrijfbaar. Als onlangs uw Android telefoon geüpgraded is naar KitKat 4.4 en hoger, dan is de manier waarop apps naar de SD-kaart schrijven veranderd zodat er alleen naar een specifieke locatie geschreven kan worden. De locatie die DSub gebruikt is al automatisch veranderd naar de juiste locatie. Om de oude app-data te verwijderen, moet de SD-kaart gekoppeld worden aan een computer om de oude folder handmatig te verwijderen.</string>
+    <string name="settings.cache_location_reset">De locatie van de cache die u hebt ingesteld is niet meer beschrijfbaar. Als onlangs uw Android telefoon geüpgraded is naar KitKat 4.4 en hoger, dan is de manier waarop apps naar de SD-kaart schrijven veranderd zodat er alleen naar een specifieke locatie geschreven kan worden. De locatie die JAmp gebruikt is al automatisch veranderd naar de juiste locatie. Om de oude app-data te verwijderen, moet de SD-kaart gekoppeld worden aan een computer om de oude folder handmatig te verwijderen.</string>
 	<string name="settings.cache_clear">Cache legen</string>
 	<string name="settings.cache_clear_complete">Klaar met cache legen</string>
     <string name="settings.testing_connection">Verbinding testen...</string>
@@ -395,7 +395,7 @@
 	<string name="settings.shares_enabled_summary">Al dan niet weergeven van de shareslijst in de lade</string>
 	<string name="settings.sync_title">Sync</string>
 	<string name="settings.sync_enabled">Sync ingeschakeld</string>
-	<string name="settings.sync_enabled_summary">Al dan of niet playlists of padcasts periodiek gecontroleerd worden op wijzigingen</string>
+	<string name="settings.sync_enabled_summary">Of playlists of podcasts periodiek gecontroleerd worden op wijzigingen</string>
 	<string name="settings.sync_interval">Sync interval</string>
 	<string name="settings.sync_interval_15">15 minuten</string>
 	<string name="settings.sync_interval_30">30 minute</string>
@@ -429,14 +429,14 @@
 	<string name="settings.disable_exit_prompt">Exit Prompt uitschakelen</string>
 	<string name="settings.disable_exit_prompt_summary">Verlaat meteen de app bij het op back drukken vanuit het Home scherm</string>
 	<string name="settings.override_system_language">Systeemtaal overschrijven</string>
-	<string name="settings.override_system_language_summary">Toon de app in Engels, ook als de systeemtaal voor Dsub beschikbaar is. Het is misschien nodig om de app uit cache geheugen te wissen voordat het effectief is.</string>
+	<string name="settings.override_system_language_summary">Toon de app in Engels, ook als de systeemtaal voor JAmp beschikbaar is. Het is misschien nodig om de app uit cache geheugen te wissen voordat het effectief is.</string>
 	<string name="settings.drawer_items_title">Server tabs</string>
 	<string name="settings.large_album_art">Grote albumhoezen</string>
 	<string name="settings.large_album_art_summary">Toon albums met grote hoes in plaats van een lijst</string>
 	<string name="settings.admin_enabled">Beheer ingeschakeld</string>
 	<string name="settings.admin_enabled_summary">Al dan niet weergeven van de adminlijst in de lade</string>
 	<string name="settings.replay_gain">Normaliseren</string>
-	<string name="settings.replay_gain_summary">Aldan of niet de afspeelvolume per nummer of album normaliseren adhv (replay gain) tags</string>
+	<string name="settings.replay_gain_summary">Of het afspeelvolume per nummer of album wordt genormaliseerd adhv replay gain tags</string>
 	<string name="settings.replay_gain_type">Lees van tags</string>
 	<string name="settings.replay_gain_type.smart">Slimme detectie</string>
 	<string name="settings.replay_gain_type.album">Album tags</string>
@@ -449,7 +449,7 @@
 	<string name="settings.rename_duplicates">Hernoem dubbele nummers</string>
 	<string name="settings.rename_duplicates_summary">Hernoem dubbele nummers naar de originele bestandsnaam om ze te kunnen onderscheiden.</string>
 	<string name="settings.start_on_headphones">Start met koptelefoon</string>
-	<string name="settings.start_on_headphones_summary">Start als een koptelefoon gekoppeld wordt. Dit vereist het gebruik van een service bij het opstarten van de telefoon om de de koptelefoonplugin te monitoren, zelfs als Dsub niet gebruikt wordt.</string>
+	<string name="settings.start_on_headphones_summary">Start als een koptelefoon gekoppeld wordt. Dit vereist het gebruik van een service bij het opstarten van de telefoon om de de koptelefoonplugin te monitoren, zelfs als JAmp niet gebruikt wordt.</string>
 	<string name="settings.color_action_bar">Kleur actiebalk</string>
 	<string name="settings.color_action_bar.summary">Kleur de actiebalk en statusbalk, of laat ze ongemoeid.</string>
 	<string name="settings.shuffle_by_album">Shuffle op basis van albums</string>
@@ -476,8 +476,8 @@
 	<string name="admin.add_user_username">Gebruikersnaam:</string>
 	<string name="admin.add_user_email">E-mail:</string>
 	<string name="admin.add_user_password">Wachtwoord:</string>
-	<string name="admin.create_user_success">Succesvol niet gebruiker aangemaakt</string>
-	<string name="admin.create_user_error">Mislukt nieuwe gebruiker aan te maken</string>
+	<string name="admin.create_user_success">Succesvol nieuwe gebruiker aangemaakt</string>
+	<string name="admin.create_user_error">Niet gelukt om nieuwe gebruiker aan te maken</string>
 	<string name="admin.change_username_invalid">Voer valide gebruikersnaam in</string>
 	<string name="admin.update_permissions">Update machtigingen</string>
 	<string name="admin.update_permissions_success">Succesvol machtigingen geüpdatet voor %1$s</string>
@@ -491,7 +491,7 @@
 	<string name="admin.change_password_success">Succesvol wachtwoord gewijzigd voor %1$s</string>
 	<string name="admin.change_password_error">Mislukt om wachtwoord te wijzigen voor %1$s</string>
 	<string name="admin.change_password_label">Nieuw wachtwoord:</string>
-	<string name="admin.change_password_invalid">Voerin een valide wachtwoord</string>
+	<string name="admin.change_password_invalid">Voer een valide wachtwoord in</string>
 	<string name="admin.delete_user">Verwijder gebruiker</string>
 	<string name="admin.delete_user_success">Succesvol %1$s verwijderd</string>
 	<string name="admin.delete_user_error">Mislukt om %1$s te verwijderen</string>
@@ -520,7 +520,7 @@
 
     <string name="service.connecting">Serververbinding wordt opgezet, moment geduld a.u.b.</string>
 
-    <string name="parser.upgrade_client">Onverenigbare versies. DSub upgraden a.u.b.</string>
+    <string name="parser.upgrade_client">Onverenigbare versies. JAmp upgraden a.u.b.</string>
     <string name="parser.upgrade_server">Onverenigbare versies. Subsonic server upgraden a.u.b.</string>
     <string name="parser.not_authenticated">Verkeerde gebruikersnaam of wachtwoord.</string>
     <string name="parser.not_authorized">Niet geautoriseerd. Controleer de gebruikerspermissies op Subsonic server.</string>
@@ -539,10 +539,10 @@
 	<string name="equalizer.db_size">%d dB</string>
 	<string name="equalizer.bass_size">%d mille</string>
 
-	<string name="widget.4x1">DSub (4x1)</string>
-	<string name="widget.4x2">DSub (4x2)</string>
-	<string name="widget.4x3">DSub (4x3)</string>
-	<string name="widget.4x4">DSub (4x4)</string>
+	<string name="widget.4x1">JAmp (4x1)</string>
+	<string name="widget.4x2">JAmp (4x2)</string>
+	<string name="widget.4x3">JAmp (4x3)</string>
+	<string name="widget.4x4">JAmp (4x4)</string>
     <string name="widget.initial_text">Aanraken om muziek te selecteren</string>
     <string name="widget.sdcard_busy">SD-kaart onbeschikbaar</string>
     <string name="widget.sdcard_missing">Geen SD-kaart</string>
@@ -563,7 +563,7 @@
 
 	<string name="tasker.start_playing">Begin met spelen</string>
 	<string name="tasker.start_playing_shuffled">Begin met spelen in shuffle-modus</string>
-	<string name="tasker.start_playing_title">Tasker -> Start DSub</string>
+	<string name="tasker.start_playing_title">Tasker -> Start JAmp</string>
 	<string name="tasker.edit_shuffle_mode">Start in shuffle-modus: </string>
 	<string name="tasker.edit_shuffle_start_year">Shuffle start jaar:</string>
 	<string name="tasker.edit_shuffle_end_year">Shuffle einde jaar:</string>
@@ -631,6 +631,36 @@
         <item quantity="one">Eén dag over van proefperiode</item>
         <item quantity="other">%d dagen over van proefperiode</item>
     </plurals>
+	<string name="settings.local_network_required_title">Niet steamen indien roaming</string>
+	<string name="settings.local_network_required_summary">Geen media streamen indien roaming</string>
+	<string name="settings.cache_location_external">Extern</string>
+	<string name="settings.cache_location_internal">Intern</string>
+	<string name="admin.change_password_current_label">Huidig wachtwoord:</string>
+	<string name="admin.musicFolders">Muziek Mappen</string>
+	<string name="admin.permissions">Rechten</string>
+	<string name="details.played_count">Gespeeld Aantal</string>
+	<string name="details.expiration">Vervaldatum</string>
+	<string name="download.playerstate_playing_artist_radio">Artiest radio</string>
+	<string name="main.songs_top_played">Top afgespeeld</string>
+	<string name="menu.similar_artists.missing">Ontbrekende Artiesten</string>
+	<string name="settings.casting_stream_original">Stream origineel</string>
+	<string name="settings.casting_stream_original_summary">Stream originele bestanden indien ondersteund door cast apparaat</string>
+	<string name="download.playback_speed_custom">Aangepast</string>
+	<string name="settings.theme_day_night">Dag/Nacht</string>
+	<string name="settings.theme_day_black_night">Dag/Zwart Nacht</string>
+	<string name="settings.internet_radio_enabled">Internet Radio Ingeschakeld</string>
+	<string name="download.batch_mode">Batch Modus</string>
+	<string name="settings.song_press_play_single">Speel alleen dat nummer</string>
+	<string name="settings.song_press_action">Nummer Klik Actie</string>
+	<string name="settings.casting.dlna_casting_enabled">DLNA ingeschakeld</string>
+	<string name="settings.rewind_interval">Terugspoel interval</string>
+	<string name="settings.fastforward_interval">Vooruitspoel interval</string>
+	<string name="admin.role.video_conversion">Converteer video\'s</string>
+	<string name="details.home_page">Homepagina</string>
+	<string name="permission.external_storage.failed">Jamp werkt niet zonder de mogelijkheid om naar opslag te schrijven</string>
+	<string name="settings.song_press_play_next">Voeg nummer toe als volgende</string>
+	<string name="settings.song_press_play_last">Voeg nummer toe aan het einde van de afspeellijst</string>
+	<string name="settings.song_press_play_all">Voegt alles in het album toe aan de afspeellijst</string>
 
 </resources>
 
