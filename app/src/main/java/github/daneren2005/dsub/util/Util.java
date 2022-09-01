@@ -277,6 +277,11 @@ public final class Util {
         return prefs.getBoolean(Constants.PREFERENCES_KEY_DISPLAY_TRACK, true);
 	}
 
+	public static boolean getDisplayFileSuffix(Context context) {
+		SharedPreferences prefs = getPreferences(context);
+		return prefs.getBoolean(Constants.PREFERENCES_KEY_DISPLAY_FILE_SUFFIX, true);
+	}
+
     public static int getMaxBitrate(Context context) {
         ConnectivityManager manager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo networkInfo = manager.getActiveNetworkInfo();
@@ -354,9 +359,9 @@ public final class Util {
 				String currentSSID = Util.getSSID(context);
 
 				String[] ssidParts = SSID.split(",");
-				if ("".equals(SSID) || SSID.equals(currentSSID) || Arrays.asList(ssidParts).contains(currentSSID)) {
-					String internalUrl = prefs.getString(Constants.PREFERENCES_KEY_SERVER_INTERNAL_URL + instance, null);
-					if (internalUrl != null && !"".equals(internalUrl) && !"http://".equals(internalUrl)) {
+				if (SSID.equals(currentSSID) || Arrays.asList(ssidParts).contains(currentSSID)) {
+					String internalUrl = prefs.getString(Constants.PREFERENCES_KEY_SERVER_INTERNAL_URL + instance, "");
+					if (!internalUrl.isEmpty() && !"http://".equals(internalUrl)) {
 						serverUrl = internalUrl;
 					}
 				}
